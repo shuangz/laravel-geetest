@@ -1,0 +1,22 @@
+{
+    "name": "shuangz/laravel-geetest",
+    "description": "Geetest package for laravel5",
+    "keywords": ["geetest", "laravel", "geetest3", "captcha"],
+    "license": "MIT",
+    "type": "library",
+	"authors": [
+        {
+    		"name": "shuangzhang",
+    		"email": "likeshuangz@gmail.com"
+    	}
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.4"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Shuangz\\Geetest\\" : "src/"
+    	}
+    }
+}
