@@ -21,7 +21,7 @@ class Controller
     {
         $request = $this->request;
 
-        $user_id = $request->has('user_id') ? $request->input('user_id') : mt_rand(10000, 99999);
+        $user_id = $request->has('username') ? $request->input('username') : mt_rand(10000, 99999);
         $data = [
                     'user_id'     => sha1($user_id),
                     'client_type' => config('geetest.client_type'),
